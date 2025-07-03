@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #eef1f7;
+  color: #333;
+}
+header {
+  background: linear-gradient(to right, #3a6073, #16222a);
+  padding: 30px 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+header h1 {
+  font-size: 2.5rem;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav a:hover {
+  color: #00bcd4;
+}
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.post {
+  background: white;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-left: 6px solid #00bcd4;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+.post h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.post p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+footer {
+  text-align: center;
+  background: #ccc;
+  padding: 20px;
+  margin-top: 60px;
+}
+.auth-box {
+  background: white;
+  padding: 30px;
+  max-width: 400px;
+  margin: 100px auto;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.auth-box input,
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+.auth-box button {
+  background: #00bcd4;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.auth-box button:hover {
+  background: #0288a7;
+}
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
